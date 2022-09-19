@@ -6,12 +6,12 @@
  *
  * Return: The length of @str.
  */
-int _strlen(char *sili)
+size_t _strlen(const char *str)
 {
-	int count;
-	
-	for (count = 0; *s != '\0'; ++s)
-		count++;	
-	
-	return (count);
+	size_t length = 0;
+
+	while (*str++)
+		length++;
+
+	return (length);
 }
