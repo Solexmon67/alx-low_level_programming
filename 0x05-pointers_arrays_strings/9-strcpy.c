@@ -20,6 +20,6 @@ dest[b] = src[a];
 b++;
 dest[b] = '\0';
 
-return (dest)
+return (dest);
 }
-;
+
