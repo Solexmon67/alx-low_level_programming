@@ -17,7 +17,7 @@ int b = 0;
 
 for (a = 0; src[a] != '\0'; a++)
 dest[b] = src[a];
-b++
+b++;
 
 dest[b] = '\0';
 
